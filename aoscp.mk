@@ -14,6 +14,7 @@
 # limitations under the License.
 
 $(call inherit-product, device/motorola/harpia/full_harpia.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_n.mk)
 
 # Inherit some common CypherOS stuff.
 $(call inherit-product, vendor/aoscp/configs/common_full_phone.mk)
